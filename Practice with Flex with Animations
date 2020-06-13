@@ -1,0 +1,51 @@
+.banner {
+  border: solid red 10px;
+  height: 1000px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.side {
+  display: flexbox;
+  flex-direction: column;
+}
+.image {
+  background: url("./images/bigimage.jpeg") center/cover no-repeat;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex: 75%;
+  height: 100%;
+}
+.sideBar {
+  background: url("./images/topimage.jpeg") center/cover fixed no-repeat;
+  border: purple solid 2px;
+  flex: 12.5%;
+  flex-direction: column;
+  height: 50%;
+  box-sizing: border-box;
+}
+.below {
+  background: url("./images/belowimage.jpeg") center/cover fixed no-repeat;
+  border: purple solid 2px;
+  flex: 12.5%;
+  flex-direction: column;
+  height: 50%;
+  box-sizing: border-box;
+}
+.below:hover {
+  animation: move 1s linear;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0px);
+  }
+  25% {
+    transform: translateX(-25px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
