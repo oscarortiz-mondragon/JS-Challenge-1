@@ -1,0 +1,7 @@
+function findPerimeter(height, width) {
+	let side = 2*height + 2*width;
+	return side;
+	
+}
+Other Possible Answer
+	return (height + width) * 2;
