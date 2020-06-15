@@ -1,0 +1,5 @@
+function convert(minutes) {
+  let time = minutes * 60;
+  return time;
+}
+const convert = (minutes) => minutes * 60;
