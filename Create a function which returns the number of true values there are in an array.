@@ -1,0 +1,23 @@
+const countTrue = a => a.filter(x => x == true).length;
+
+or 
+
+
+function count_true(lst){
+	var count = 0;
+	for(var i = 0; i < lst.length; i++){
+		if(lst[i] === true){
+			count++;
+		}
+	}
+	return count;
+}
+
+or 
+
+
+function count_true(lst){
+	return lst.filter(function(value){
+    return value === true;
+	}).length    
+}
