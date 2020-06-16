@@ -21,3 +21,7 @@ function count_true(lst){
     return value === true;
 	}).length    
 }
+------------------------------ (my way,compare to arrrow version)
+function countTrue(arr) {
+  return arr.filter(Boolean).length;
+}
