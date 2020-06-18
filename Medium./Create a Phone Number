@@ -1,0 +1,18 @@
+function createPhoneNumber(numbers) {
+  // first number
+  let possum = numbers.slice(0, 3);
+  FirstComma = possum.join("");
+  three = FirstComma;
+  // second set
+  let apple = numbers.slice(3, 6);
+  secondComma = apple.join("");
+  nextThree = secondComma;
+  // third set
+  let fox = numbers.splice(6);
+  lastComma = fox.join("");
+  lastFour = lastComma;
+
+  sentence = `(${three})` + ` ${nextThree}` + "-" + `${lastFour}`;
+
+  return sentence;
+}
