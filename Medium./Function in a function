@@ -1,0 +1,7 @@
+function redundant(str) {
+  let i = str;
+  function peace() {
+    return i;
+  }
+  return peace;
+}
