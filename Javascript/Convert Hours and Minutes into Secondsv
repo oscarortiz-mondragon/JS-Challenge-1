@@ -1,0 +1,5 @@
+function convert(hours, minutes) {
+  let i = hours;
+  let j = minutes;
+  return i * 3600 + j * 60;
+}
