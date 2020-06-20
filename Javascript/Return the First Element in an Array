@@ -1,0 +1,1 @@
+getFirstValue = (arr) => arr[0];v
