@@ -1,0 +1,23 @@
+My Code
+function squareDigits(n) {
+  let i = [];
+
+  i.push(n);
+  let a = JSON.stringify(i);
+  let firstVar = a.slice(1, 2);
+  let secondVar = a.slice(2, 3);
+  let thirdVar = a.slice(3, 4);
+  let fourthVar = a.slice(4, 5);
+  let math1 = firstVar * firstVar;
+  let math2 = secondVar * secondVar;
+  let math3 = thirdVar * thirdVar;
+  let math4 = fourthVar * fourthVar;
+  let result =
+    JSON.stringify(math1) +
+    JSON.stringify(math2) +
+    JSON.stringify(math3) +
+    JSON.stringify(math4);
+  return parseInt(result);
+}
+Shorter Code
+const squareDigits = n => +([...n+``].map(d => d*d).join(``))
