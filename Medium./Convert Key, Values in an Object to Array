@@ -1,0 +1,20 @@
+function objectToArray(obj) {
+  const myArray = Object.entries(obj);
+  return myArray;
+}
+
+console.log(
+  objectToArray({
+    likes: 2,
+    dislikes: 3,
+    followers: 10,
+  })
+);
+
+Object.entries, capitilized O in objects. 
+Another Example
+function pizza(bug) {
+  let fix = Object.entries(bug);
+  return fix;
+}
+console.log(pizza(apple));
