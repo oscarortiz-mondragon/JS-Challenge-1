@@ -1,0 +1,12 @@
+function minMax(arr) {
+  let i = [];
+  let c = Math.min.apply(minMax, arr);
+  let d = i.unshift(c);
+  let a = Math.max.apply(minMax, arr);
+  let b = i.push(a);
+
+  return i;
+  }
+  
+  remember that if you are getting NaN, you are forgetting to set one of the 
+  variables to the function itself, with the variable.
