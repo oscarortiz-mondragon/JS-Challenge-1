@@ -1,0 +1,4 @@
+function divisible(num) {
+  return num % 100 === 0 ? true : false;
+}
+first time I was confident with this short method
