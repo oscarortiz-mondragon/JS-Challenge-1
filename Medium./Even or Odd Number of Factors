@@ -1,0 +1,10 @@
+function factorGroup(num) {
+  for (let i = 0; i <= num; i++) {
+    if (num == i * i) {
+      return "odd";
+    } else if (num != i * i) {
+    }
+  }
+  return "even";
+}
+console.log(factorGroup(36));
