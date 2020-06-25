@@ -1,0 +1,4 @@
+function intWithinBounds(n, lower, upper) {
+  return n < upper && n >= lower && Number.isInteger(n) ? true : false;
+}
+
