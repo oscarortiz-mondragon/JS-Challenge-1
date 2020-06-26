@@ -1,0 +1,7 @@
+function largestSwap(num) {
+  let a = JSON.stringify(num);
+  let b = a.slice(0, 1);
+  let c = a.slice(1, 2);
+  let d = c + b;
+  return num >= d ? true : false;
+}
