@@ -1,0 +1,9 @@
+function timeForMilkAndCookies(date) {
+  let a = 11;
+  let b = 24;
+  if (date.getDate() === b && date.getMonth() === a) {
+    return true;
+  } else {
+    return false;
+  }
+}
